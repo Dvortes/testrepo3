@@ -19,7 +19,7 @@ body, h1, h2, p, ul, li {
   }
   
   header:hover, nav:hover {
-    background-color: vi; 
+    background-color: violet; 
   }
   
   nav {
