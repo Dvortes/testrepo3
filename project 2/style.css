@@ -1,0 +1,81 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: red;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    transition: background-color white 0.3s ease-in-out; 
+  }
+  
+  header {
+    background-color: red; /* Red */
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+  }
+  
+  header:hover, nav:hover {
+    background-color: #ff5555; /* Lighter red on hover */
+  }
+  
+  nav {
+    background-color: #222; /* Dark gray */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+  }
+  
+  nav a:hover {
+    color: #ff5555; /* Lighter red on hover */
+  }
+  
+  .main-content {
+    padding: 20px;
+    border: 1px solid #ff5555; /* Red border */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .main-content:hover {
+    box-shadow: 0px 0px 10px #ff5555; /* Red shadow on hover */
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    
+    nav li {
+      margin: 10px 0;
+    }
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  
