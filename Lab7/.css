@@ -1,0 +1,49 @@
+nav {
+    background-color: blue;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation links horizontally */
+    background-color: #000;
+    padding: 10px 20px;
+  }
+  
+  nav li {
+    display: inline; /* Display navigation links inline (horizontally) */
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    text-decoration: underline overline; /* Adjust text decoration as needed */
+  }
+  
+  /* Styles for side navigation bar (aside element) */
+  aside {
+    position: fixed;
+    right: 0;
+    background-color: red;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  aside li {
+    padding: 15px 0;
+  }
+  
+  aside a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+  }
